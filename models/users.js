@@ -5,7 +5,7 @@ const usersModel = db.define("users", {
     name: DataTypes.STRING,
     lastName: DataTypes.STRING,
     age: DataTypes.INTEGER,
-    address: DataTypes.STRING
+    favoriteFoods: DataTypes.STRING
 });
 
 module.exports = usersModel;
